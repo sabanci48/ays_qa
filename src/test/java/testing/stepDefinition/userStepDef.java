@@ -35,7 +35,7 @@ public class userStepDef {
                 .when()
                 .post(ConfigurationReader.getProperty("APIURL") +endpoint);
 
-        System.out.println(response.prettyPeek().body());
+       // System.out.println(response.prettyPeek().body());
 
     }
     @Then("status code should be {int}")
